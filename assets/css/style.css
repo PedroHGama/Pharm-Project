@@ -1,0 +1,693 @@
+/* header */
+body {
+
+background: whitesmoke;
+
+}
+header {
+    text-align: center;
+    border-bottom: solid 2px navy;
+    padding-bottom: 10px;
+}
+
+.logo {
+   font-family: 'Roboto Condensed', sans-serif;
+   color: navy;
+   font-size: 70px;
+   font-weight: bold;
+}
+
+.logo:hover {
+    color: rgb(0, 79, 182);
+    text-decoration: none;
+     }
+
+
+.logo-position {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.header-link{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: navy;
+    font-weight: bold;
+}
+
+.header-list {
+    padding:0;
+     padding-bottom: 20px;
+}
+
+.header-padding {
+    padding-left: 0;
+}
+
+.header-link:hover {
+    color: rgb(0, 79, 182);
+    text-decoration: none;
+}
+
+.header-icon {
+    padding-bottom: 10px;
+    padding-top: 20px;
+ }
+
+
+.nhs-logo {
+    top: 15px;
+}
+
+/* The side navigation menu */
+
+.open-menu {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color: navy;
+    font-weight: bold;
+    top: 2px;
+    cursor: pointer;
+    padding-top: 30px;
+}
+
+.open-menu:hover {
+    color: rgba(0, 0, 128, 0.623);
+}
+.sidenav {
+  text-align: left;
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: lightgrey; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s;
+}
+
+/* The navigation menu links */
+
+.hide {
+    display: none !important;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: navy;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgba(0, 0, 128, 0.623);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* footer  */
+
+footer {
+    text-align: center;
+    border-top: 2px solid navy;
+}
+
+.footer-title {
+    font-family: 'Raleway', sans-serif;
+    color: navy;
+    font-size: 20px;
+    padding-top : 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-footer h6 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.socials-list, .downloads-list {
+    padding: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    color:  rgb(0, 79, 182);
+}
+
+.tel:hover {
+    text-decoration: none;
+color:  rgb(0, 79, 182);
+}
+
+.tel-position {
+    padding-top: 5px;
+}
+
+.footer-link {
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.contact-link:hover {
+    text-decoration: none;
+color:  rgb(0, 79, 182);
+}
+
+/* main section with image and main list */
+
+.main-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-list {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 150px;
+    list-style-type: none;
+    font-weight: bold; 
+}
+
+.fa-clipboard-check {
+    font-size: 30px;
+    color: navy;
+}
+
+.main-list-item { 
+ padding-top: 20px;
+    font-size: 25px;
+    color: navy;
+    font-weight: bold;
+}
+
+.dl-link{
+    padding-top: 50px;
+    padding-left: 0;
+}
+
+.dl-links-individual {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.nhs-service {
+    position: absolute;
+    right: 10%;
+}
+
+/* steps carousel section */
+
+.steps {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.steps-section {
+    border-top: 2px solid navy;
+    height: 500px;
+    overflow-x: hidden;
+}
+
+.steps-title {
+    color: navy;
+    text-align: center;
+     font-family: 'Raleway', sans-serif;
+     padding-top: 50px;
+     font-weight: bold;
+     font-size: 30px;
+
+}
+
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+
+.steps-font {
+    font-weight: bold;
+     font-size: 30px;
+}
+
+.steps-font-2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.steps-individual {
+   
+    margin-bottom: 30px;
+    color: navy;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.show-me-1, .show-me-2, .show-me-3, .show-me-4 {
+    display : none;
+    height: 231px;
+    vertical-align: center;
+    padding-top: 40px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+.placehold-1, .placehold-2, .placehold-3, .placehold-4{
+    margin-left: 7%;
+}
+
+.step-title {
+ font-size: 16px;
+ padding-top: 20px;
+ font-weight: bold;
+ text-align: center;
+}
+
+/* FAQs page */
+
+.faqs-contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.faqs-title {
+     font-family: 'Raleway', sans-serif;
+     color: black;
+     text-align: center;
+     font-size: 30px;
+     padding-bottom: 30px;
+     font-weight: bold;
+}
+
+.question {
+    font-size: 20px;
+    color: black;
+     font-family: 'Raleway', sans-serif;
+     border-bottom: solid 2px rgba(3, 3, 3, 0.473);
+     padding-bottom: 10px;
+     cursor: pointer;
+     font-weight: bold;
+}
+
+.answer {
+    display: none;
+    font-size: 15px;
+     font-family: 'Raleway', sans-serif;
+     color: navy;
+     font-weight: bold;
+}
+
+.faqs-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* contact us form */
+
+.contact-us-form{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.contact-title {
+   font-family: 'Raleway', sans-serif;
+   padding-bottom: 50px; 
+   padding-top: 50px;
+   font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-label {
+    font-size: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-us-margin {
+    margin: 0;
+}
+
+
+/* Find us page */
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.map-click {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: navy;
+}
+
+.findus-title {
+    text-align: center;
+    padding-top: 50px;
+     font-family: 'Raleway', sans-serif;
+     color: black;
+     font-weight: bold;
+     font-size: 30px;
+}
+
+.findus-title + h4 {
+   text-align: center;
+    padding-top: 5px;
+     font-family: 'Raleway', sans-serif;
+     color: black;
+     font-weight: bold;
+     font-size: 13px; 
+}
+
+.branches-title {
+    text-align: center;
+    margin-bottom: 40px;
+     font-family: 'Raleway', sans-serif;
+     color: black;
+     font-weight: bold;
+     font-size: 30px;
+}
+
+.branches-list {
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.branch-item {
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+     color: black;
+     display: none;
+     padding-bottom: 20px;
+}
+
+#searchBox, #otherBox, #dateService, #dateMedication {
+    display: none;
+}
+
+/* covid page */
+
+.covid {
+
+ text-align: center;
+    font-weight: bold;
+     font-family: 'Raleway', sans-serif;
+     color: black;
+}
+
+.covid-title {
+    text-align: center;
+    font-weight: bold;
+     font-family: 'Raleway', sans-serif;
+     color: black;
+     padding-top: 50px;
+     font-size: 30px;
+}
+
+.video-title {
+    padding-top: 50px;
+     padding-bottom: 50px;
+     font-size: 20px;
+}
+
+.bottom-padding {
+    padding-bottom: 50px;
+}
+
+a { color: inherit; } 
+
+
+/* media queries */
+@media screen and (max-width: 1050px) and (min-width: 851px){
+
+    .main-list-item {
+        font-size:20px;
+
+    }
+
+    .nhs-service {
+        display: none;
+    }
+
+    .main-list {
+        padding: 0;
+    }
+
+    .dl-link {
+        margin-right: 0;
+        padding-top: 50px;
+        padding-left: 0;
+    }
+
+       .dl-links-individual {
+    padding-right: 50px;
+    padding-left: 50px;
+    }
+
+        .fa-clipboard-check {
+    font-size: 20px;
+    }
+
+@media screen and (max-width: 850px) and (min-width: 701px){
+
+
+    header {
+        padding-bottom: 0;
+    }
+
+    .nhs-logo {
+        display: none;
+    }
+
+    .nhs-service {
+        display: none;
+        
+    }
+
+    .branch-item {
+    margin-bottom: 30px;
+    }
+
+    .branches-list {
+        padding-left: 0;
+    }
+
+    .branch-item {
+        margin-left: 0px;
+    }
+
+    .main-image{
+        padding-bottom: 30px;
+    }
+
+    .main-list-item {
+        font-size:15px;
+        padding-left: 150px;
+    }
+
+    .dl-link{
+        padding-top: 15px;
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    .dl-links-individual {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .header-list{
+    margin-bottom: 20px;
+    }
+
+}
+
+}
+
+@media screen and (max-width: 700px) and (min-width: 601px){
+
+
+    
+    header {
+        padding-bottom: 0;
+    }
+
+    .header-list {
+        border-bottom: 1px solid navy;
+    }
+
+    .nhs-logo {
+        display: none;
+    }
+
+    .nhs-service {
+        margin-top: 15px;
+    }
+
+    .branch-item {
+    margin-bottom: 30px;
+}
+
+.branches-list {
+    padding-left: 0;
+}
+
+.branch-item {
+    margin-left: 0px;
+}
+
+ .main-list-item {
+        font-size:15px;
+
+    }
+
+.dl-link{
+    padding-top: 15px;
+    margin-right: 0;
+    padding-left: 0;
+    }
+
+.dl-links-individual {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+ .header-list{
+    margin-bottom: 20px;
+}
+
+.main-list {
+    padding-left: 20%;
+}
+}
+
+@media screen and (max-width: 600px){
+
+ 
+    .nhs-logo {
+        display: none;
+    }
+
+     .header-list {
+        border-bottom: 1px solid navy;
+    }
+
+    .logo {
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    header {
+        padding-bottom: 0;
+    }
+
+    .nhs-service {
+        margin-top: 15px;
+    }
+
+    .main-list {
+        padding-left: 0;
+    }
+
+    .main-list-item {
+        font-size:15px;
+        
+        padding-left: 0;
+
+    }
+
+    .dl-link{
+    padding-top: 15px;
+    margin-right: 0;
+    padding-left: 0;
+    }
+
+    .dl-links-individual {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+    .fa-clipboard-check {
+    font-size: 20px;
+    
+}
+
+.steps-image{
+    background-size: contain;
+}
+
+.header-list{
+    margin-bottom: 20px;
+}
+
+.steps-individual {
+      padding: 0px;
+    
+}
+
+.branch-item {
+    margin-bottom: 30px;
+}
+
+.steps {
+    padding-left: 0;
+}
+
+
+
+.covid-video iframe {
+    width: 90%;
+}
+
+.branches-list {
+    padding-left: 0;
+}
+
+.branch-item {
+    margin-left: 0px;
+}
+}
+
